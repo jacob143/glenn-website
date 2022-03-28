@@ -22,7 +22,7 @@ export const homeObjTwo = {
     lightTopLine: false, 
     lightTextDesc: false, 
     buttonLabel: 'Get Started!', 
-    description: 'WORK PLEASE' , 
+    description: 'See what memories we help cultivate! ' , 
     headline: 'Helping Clients create memories that will last lifetimes', 
     lightText: false, 
     topLine: 'Lorem Ipsum',

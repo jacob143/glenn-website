@@ -3,7 +3,7 @@ import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
-  background-color: #101522;
+  background-color: #D1ECFF;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ export const FooterSubscription = styled.section`
   text-align: center;
   margin-bottom: 24px;
   padding: 24px;
-  color: #fff;
+  color: #25499D;
 `;
 
 export const FooterSubHeading = styled.p`
@@ -86,7 +86,7 @@ export const FooterLinkItems = styled.div`
   text-align: left;
   width: 160px;
   box-sizing: border-box;
-  color: #fff;
+  color: #25499D;
   @media screen and (max-width: 420px) {
     margin: 0;
     padding: 10px;
@@ -96,14 +96,15 @@ export const FooterLinkItems = styled.div`
 
 export const FooterLinkTitle = styled.h2`
   margin-bottom: 16px;
+  color: #25499D;
 `;
 
 export const FooterLink = styled(Link)`
-  color: #fff;
+  color: #3d73f2;
   text-decoration: none;
   margin-bottom: 0.5rem;
   &:hover {
-    color: #0467fb;
+    color: #25499D;
     transition: 0.3s ease-out;
   }
 `;
@@ -126,7 +127,7 @@ export const SocialMediaWrap = styled.div`
 `;
 
 export const SocialLogo = styled(Link)`
-  color: #fff;
+  color: #25499D;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -141,7 +142,7 @@ export const SocialIcon = styled(FaMagento)`
 `;
 
 export const WebsiteRights = styled.small`
-  color: #fff;
+  color: #25499D;
   margin-bottom: 16px;
 `;
 
@@ -153,6 +154,6 @@ export const SocialIcons = styled.div`
 `;
 
 export const SocialIconLink = styled.a`
-  color: #fff;
+  color: #25499D;
   font-size: 24px;
 `;

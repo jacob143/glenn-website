@@ -1,11 +1,10 @@
 import React from 'react';
-import { InfoSection } from '../../components';
-import { homeObjThree } from './Data';
+import Form from '../../components/Form/Form';
 
 const Contact = () => {
   return (
     <>
-      <InfoSection {...homeObjThree}/>
+      <Form />
     </>
   );
 }

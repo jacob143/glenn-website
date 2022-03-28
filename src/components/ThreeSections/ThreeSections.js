@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { GiCrystalBars } from 'react-icons/gi';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
+// import { GiCrystalBars } from 'react-icons/gi';
+import {  GiRock } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import {
   ThreeSection,

@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import { Container } from '../../globalStyles'; 
-import { FaMagento} from 'react-icons/fa';
+import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom'; 
 
 export const Nav = styled.nav`
-  background: #101522;
+  background: #D1ECFF;
+  /* opacity:.5; */
   height: 80px;
   display: flex;
   justify-content: center;
@@ -23,7 +24,7 @@ export const NavbarContainer = styled(Container)`
 `;
 
 export const NavLogo = styled(Link)`
-color:#fff; 
+color: #25499D; 
 justify-self: flex-start; 
 cursor: pointer; 
 text-decoration: none; 
@@ -47,6 +48,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    color: #25499D;
   }
 `;
 
@@ -66,7 +68,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: #D1ECFF;
   }
 `; 
 
@@ -88,7 +90,7 @@ export const NavItem = styled.li`
 `; 
 
 export const NavLinks = styled(Link)`
-    color: #fff;
+    color: #25499D;
     display: flex; 
     align-items: center; 
     text-decoration: none; 

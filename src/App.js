@@ -7,6 +7,7 @@ import About from './pages/AboutPage/About'
 import Contact from './pages/ContactPage/Contact'
 import ScrollToTop from './components/ScrollToTop';
 
+
 function App() {
   return (
     <Router>
