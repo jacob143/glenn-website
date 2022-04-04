@@ -1,6 +1,3 @@
-import ImgBg1 from '../../images/wedding_img.jpg'
-import ImgBg2 from '../../images/wedding_img.jpg'
-
 export const homeObjOne = {
     lightBg: false,
     primary: true, 

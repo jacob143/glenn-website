@@ -1,14 +1,14 @@
 import React from 'react';
-import { InfoSection, ThreeSections, InfoSection_noBtn } from '../../components';
+import { InfoSection, ThreeSections, InfoSectionnoBtn } from '../../components';
 import { homeObjTwo, homeObjThree, homeObjFour } from './Data';
 
 const About = () => {
   return (
     <>
-      <InfoSection_noBtn {...homeObjTwo}/>
+      <InfoSectionnoBtn {...homeObjTwo}/>
       <InfoSection {...homeObjThree}/>
       <ThreeSections /> 
-      <InfoSection_noBtn {...homeObjFour}/>
+      <InfoSectionnoBtn {...homeObjFour}/>
     </>
   );
 }

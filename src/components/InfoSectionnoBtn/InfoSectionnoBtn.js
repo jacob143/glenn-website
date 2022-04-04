@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Button } from '../../globalStyles';
+import { Container } from '../../globalStyles';
 import {
   InfoSec,
   InfoRow,
@@ -11,11 +10,9 @@ import {
   Subtitle,
   ImgWrapper,
   Img
-} from './InfoSection_noBtn.elements';
+} from './InfoSectionnoBtn.elements';
 
-function InfoSection({
-  buttonVisible,
-  primary,
+function InfoSectionnoBtn({
   lightBg,
   topLine,
   lightTopLine,
@@ -23,7 +20,6 @@ function InfoSection({
   lightTextDesc,
   headline,
   description,
-  buttonLabel,
   img,
   alt,
   imgStart,
@@ -53,4 +49,4 @@ function InfoSection({
   );
 }
 
-export default InfoSection;
+export default InfoSectionnoBtn;

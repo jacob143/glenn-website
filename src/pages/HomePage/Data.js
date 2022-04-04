@@ -1,5 +1,3 @@
-import ImgBg from '../../images/lecture_img.jpg'
-
 export const homeObjOne = {
     primary: true,
     lightBg: false,
