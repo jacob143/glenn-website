@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 
 export const ThreeSection = styled.div`
-  padding: 100px 0 160px;
+  padding: 75px 0 110px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #4b59f7;
+  background: #fff;
 `;
 
 export const ThreeWrapper = styled.div`
@@ -26,6 +26,13 @@ export const ThreeWrapper = styled.div`
 export const ThreeHeading = styled.h1`
   color: #fff;
   font-size: 48px;
+  margin-bottom: 24px;
+`;
+
+export const ThreeHeading2 = styled.h1`
+  color: #fff;
+  font-size: 24px;
+  margin-top: 24px;
   margin-bottom: 24px;
 `;
 
@@ -104,3 +111,7 @@ export const ThreeCardFeatures = styled.ul`
 export const ThreeCardFeature = styled.li`
   margin-bottom: 10px;
 `;
+
+export const ThreeCardImg = styled.img`
+
+`; 

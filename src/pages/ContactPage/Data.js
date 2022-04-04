@@ -44,7 +44,7 @@ export const homeObjThree = {
     headline: 'Helping Clients create memories that will last lifetimes', 
     lightText: true, 
     topLine: 'Lorem Ipsum',
-    img: require('../../images/amusement_park.svg').default, 
+    img: require('../../images/boat_trip_img.jpg').default, 
     alt: 'Image',
     start: '' 
 
