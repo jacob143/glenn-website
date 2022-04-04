@@ -1,14 +1,16 @@
+import ImgBg1 from '../../images/wedding_img.jpg'
+import ImgBg2 from '../../images/wedding_img.jpg'
+
 export const homeObjOne = {
     lightBg: false,
     primary: true, 
-    imgStart: '', 
+    imgStart: 'start', 
     lightTopLine: true, 
     lightTextDesc: true, 
     buttonLabel: 'Get Started!', 
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus mauris in nisi semper tincidunt. Quisque congue posuere justo, vel condimentum metus facilisis non.' , 
-    headline: 'Helping Clients create memories that will last lifetimes', 
+    description: '', 
     lightText: true, 
-    topLine: 'Lorem Ipsum',
+    topLine: '',
     img: require('../../images/amusement_park.svg').default, 
     alt: 'Image',
     start: '' 
@@ -21,11 +23,10 @@ export const homeObjTwo = {
     imgStart: 'start', 
     lightTopLine: false, 
     lightTextDesc: false, 
-    buttonLabel: 'Get Started!', 
-    description: 'See what memories we help cultivate! ' , 
-    headline: 'Helping Clients create memories that will last lifetimes', 
+    description: '' , 
+    headline: 'The difference between a "Good Time and a Great Time', 
     lightText: false, 
-    topLine: 'Lorem Ipsum',
+    topLine: '',
     img: require('../../images/amusement_park.svg').default, 
     alt: 'Image',
     start: 'true' 
@@ -36,7 +37,7 @@ export const homeObjTwo = {
 export const homeObjThree = {
     lightBg: false,
     primary: true, 
-    imgStart: '', 
+    imgStart: 'start', 
     lightTopLine: true, 
     lightTextDesc: true, 
     buttonLabel: 'Get Started!', 
@@ -51,18 +52,18 @@ export const homeObjThree = {
 };
 
 export const homeObjFour = {
+    buttonVisible: false, 
     lightBg: false,
     primary: true, 
     imgStart: 'start', 
     lightTopLine: true, 
     lightTextDesc: true, 
-    buttonLabel: 'Get Started!', 
+    buttonLabel: '', 
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus mauris in nisi semper tincidunt. Quisque congue posuere justo, vel condimentum metus facilisis non.' , 
-    headline: 'Helping Clients create memories that will last lifetimes', 
+    headline: 'Meet the Owner', 
     lightText: true, 
-    topLine: 'Lorem Ipsum',
-    img: require('../../images/amusement_park.svg').default, 
+    topLine: '',
+    img: require('../../images/glenn_img.jpg').default, 
     alt: 'Image',
     start: 'true' 
-
 };
